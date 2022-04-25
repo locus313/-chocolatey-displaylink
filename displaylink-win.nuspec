@@ -40,7 +40,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectUrl>https://www.synaptics.com/products/displaylink-graphics</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/displaylink.png</iconUrl>-->
+    <iconUrl>https://raw.githubusercontent.com/locus313/chocolatey-displaylink/main/img/displaylink.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.synaptics.com/products/displaylink-graphics/downloads/windows-10.2-m2-public?filetype=exe</licenseUrl>
@@ -52,7 +52,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>displaylink</tags>
     <summary>Connect any display to any computer through USB</summary>
     <description>DisplayLink is supported by the major PC computer and accessories companies and is designed into docking stations, graphics adapters, and monitors. We are constantly creating new ways to support other platforms and devices, including Ultra HD 4K displays, tablets, and wireless devices.</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>https://www.synaptics.com/sites/default/files/release_notes/2022-04/DisplayLink%20USB%20Graphics%20Software%20for%20Windows10.2%20M2-Release%20Notes.txt</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
