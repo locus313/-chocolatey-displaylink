@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 . "$toolsPath\helpers.ps1"
 
-$ID = '1371'
+# $ID = '1371'
 # $InitialURL = "https://www.displaylink.com/downloads/file?id=$ID"
 # $Formdata = "fileId=$ID&accept_submit=Accept"
 
