@@ -6,7 +6,7 @@ Describe "Return web address" {
     Context "Return a non null value" {
         It "should return a non null" {
             {
-                Get-WebLocation -URL "http://www.displaylink.com/downloads/file?id=$ID" -FormData "fileId=$ID&accept_submit=Accept"} | should not benullorempty
+                Get-WebLocation -URL "https://www.synaptics.com/node/$ID?filetype=exe" -FormData "fileId=$ID&accept_submit=Accept"} | should not benullorempty
         }
     }
     Context "Return No form data submitted" {
@@ -16,7 +16,7 @@ Describe "Return web address" {
 
         It "should return No form data submitted" {
             {
-                Get-WebLocation -URL "http://www.displaylink.com/downloads/file?id=$ID"} | should throw "No form data submitted"
+                Get-WebLocation -URL "https://www.synaptics.com/node/$ID?filetype=exe"} | should throw "No form data submitted"
         }
     }
     Context "Return No form data submitted" {
