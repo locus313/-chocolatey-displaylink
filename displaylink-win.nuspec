@@ -47,7 +47,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
+    <mailingListUrl>https://www.displaylink.org/forum/</mailingListUrl>
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>displaylink</tags>
     <summary>Connect any display to any computer through USB</summary>
