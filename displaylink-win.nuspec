@@ -46,9 +46,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <licenseUrl>https://www.synaptics.com/products/displaylink-graphics/downloads/windows-10.2-m2-public?filetype=exe</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>https://support.displaylink.com/knowledgebase</docsUrl>
     <mailingListUrl>https://www.displaylink.org/forum/</mailingListUrl>
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <bugTrackerUrl>https://support.displaylink.com/</bugTrackerUrl>
     <tags>displaylink</tags>
     <summary>Connect any display to any computer through USB</summary>
     <description>DisplayLink is supported by the major PC computer and accessories companies and is designed into docking stations, graphics adapters, and monitors. We are constantly creating new ways to support other platforms and devices, including Ultra HD 4K displays, tablets, and wireless devices.</description>
