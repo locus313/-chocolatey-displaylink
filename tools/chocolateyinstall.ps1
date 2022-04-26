@@ -1,13 +1,5 @@
 $ErrorActionPreference = 'Stop';
 
-$toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-. "$toolsPath\helpers.ps1"
-
-# $ID = '1371'
-# $InitialURL = "https://www.displaylink.com/downloads/file?id=$ID"
-# $Formdata = "fileId=$ID&accept_submit=Accept"
-
-# $url = Get-WebLocation -URL $InitialURL -FormData $Formdata
 $url = "https://www.synaptics.com/sites/default/files/exe_files/2022-04/DisplayLink%20USB%20Graphics%20Software%20for%20Windows10.2%20M2-EXE.exe"
 $packageName= $env:ChocolateyPackageName
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
